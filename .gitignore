@@ -1,0 +1,98 @@
+# =========================
+# .NET / Visual Studio
+# =========================
+
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# =========================
+# Configurações locais
+# =========================
+
+# Arquivos de ambiente
+.env
+.env.*
+!.env.example
+
+# Configurações locais do ASP.NET
+appsettings.Development.json
+appsettings.Local.json
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Testes / Coverage
+# =========================
+
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# =========================
+# Sistema operacional
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# =========================
+# NuGet
+# =========================
+
+*.nupkg
+*.snupkg
+packages/
+
+# =========================
+# Publish
+# =========================
+
+publish/
+PublishProfiles/
+
+# =========================
+# Docker
+# =========================
+
+docker-compose.override.yml
+
+# =========================
+# Certificados HTTPS locais
+# =========================
+
+*.pfx
+*.pem
+*.key
+
+# =========================
+# Arquivos temporários
+# =========================
+
+*.tmp
+*.temp
+*.swp
