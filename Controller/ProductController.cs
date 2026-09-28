@@ -11,6 +11,11 @@ namespace Product_api.Controller
         
         private readonly IProductServices _product;
 
+        public ProductController(IProductServices product)
+        {
+            _product = product;
+        }
+
         [HttpGet("item/{id}")]
         public IActionResult GetId(int id)
         {
