@@ -4,6 +4,12 @@ namespace Product_api.Services
 {
     public interface IProductServices
     {
-        List<Product> GetAll(Product product);
+       
+        List<Product> ListByName(string product);
+        Product ListById(int id);
+        Product Add(Product product);
+        Product DeleteProduct(int id);
+        Product Update(Product id);
+        List <Product> GetAll();
     }
 }
